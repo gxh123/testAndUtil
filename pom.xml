@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>gxh.test</groupId>
-    <artifactId>javaTest</artifactId>
+    <artifactId>testAndUtil</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -13,12 +13,13 @@
         <module>dubboSpiTest</module>
         <module>zkTest</module>
         <module>simpleTest</module>
-        <module>tinyRPC</module>
         <module>invokeTest</module>
         <module>registryTest</module>
         <module>nettyTest</module>
         <module>excelTest</module>
         <module>tinyNetty</module>
+        <module>tableLogTest</module>
+        <module>xmlTest</module>
     </modules>
 
     <properties>
@@ -40,6 +41,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
         </dependency>
         <dependency>

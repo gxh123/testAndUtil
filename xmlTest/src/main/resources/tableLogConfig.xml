@@ -1,0 +1,12 @@
+<logs>
+    <log cause="原因1" tableName="table1" idColumn="id">
+        <column>name</column>
+        <column>age</column>
+        <column>school</column>
+    </log>
+    <log cause="原因2" tableName="table2" idColumn="id">
+        <column>name</column>
+        <column>age</column>
+        <column>school</column>
+    </log>
+</logs>

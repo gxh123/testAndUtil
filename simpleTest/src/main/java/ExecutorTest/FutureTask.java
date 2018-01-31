@@ -36,7 +36,7 @@ public class FutureTask<V> implements RunnableFuture<V> {
     }
 
     public FutureTask(Runnable runnable, V result) {
-        this.callable = new RunnableAdapter<>(runnable, result);
+        this.callable = new RunnableAdapter<V>(runnable, result);
         this.state = NEW;       // ensure visibility of callable
     }
 

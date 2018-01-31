@@ -4,7 +4,7 @@ import java.util.Set;
 public class TestSetNull {
 
     public static void main(String[] args) {
-        Set<Long> set = new HashSet<>();
+        Set<Long> set = new HashSet<Long>();
         set.add(1L);
         set.add(1L);
         set.add(2L);
